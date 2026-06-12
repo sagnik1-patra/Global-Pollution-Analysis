@@ -1,3 +1,3 @@
 Model,Task,Main Metric,Score
-Linear Regression,Energy Recovery Prediction,R2 Score,1.0
-Logistic Regression,Pollution Severity Classification,Accuracy,0.975
+Linear Regression,Predict Delivery Time,R2 Score,0.09103744813977321
+Logistic Regression,Classify Fast or Delayed Delivery,Accuracy,0.55

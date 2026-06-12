@@ -1,27 +1,40 @@
-GLOBAL POLLUTION ANALYSIS AND ENERGY RECOVERY REPORT
-============================================================
+FOOD DELIVERY TIME PREDICTION AND DELAY CLASSIFICATION REPORT
+======================================================================
 
 PROJECT OBJECTIVE
-Analyze pollution data, predict energy recovery, classify pollution severity, and provide actionable recommendations.
+- Predict food delivery time using delivery-related features.
+- Classify deliveries as Fast or Delayed.
+- Generate operational insights for routes and staffing.
 
 DATASET INFORMATION
-Dataset Shape: (200, 28)
+Dataset Shape: (200, 23)
 Total Records: 200
+Delivery Delay Threshold: 72.775
+
+FEATURE ENGINEERING
+- Haversine distance calculated from customer and restaurant coordinates.
+- Rush Hour and Non-Rush Hour feature created from Order_Time.
+- Delivery_Status created using median Delivery_Time.
 
 LINEAR REGRESSION RESULTS
-R2 Score: 1.0
-MSE: 7.472090494253424e-28
-MAE: 1.8474111129762605e-14
+R2 Score: 0.09103744813977321
+MSE: 840.6914739234014
+RMSE: 28.9946800969316
+MAE: 24.381393925883323
 
 LOGISTIC REGRESSION RESULTS
-Accuracy: 0.975
-Precision: 0.9767857142857143
-Recall: 0.975
-F1 Score: 0.975
+Accuracy: 0.55
+Precision: 0.5555555555555556
+Recall: 0.5
+F1 Score: 0.5263157894736842
+ROC AUC: 0.5874999999999999
 
-ACTIONABLE RECOMMENDATIONS
-- High pollution locations show stronger potential for energy recovery from waste and emissions.
-- Locations with high CO2 emissions should focus on carbon capture, waste-to-energy systems, and cleaner transportation.
-- Industrial waste can be converted into useful energy through biomass, biogas, incineration, and recycling-based recovery systems.
-- Energy recovery improves when pollution sources are systematically collected, treated, and converted using clean technologies.
-- Policy focus should be given to locations with high Total Pollution Index and low energy recovery output.
+OPERATIONAL RECOMMENDATIONS
+- Increase delivery staff during lunch and dinner rush hours.
+- Assign nearest available delivery partners to high-priority orders.
+- Use traffic-aware route planning during high traffic periods.
+- Prefer faster vehicle types for short-distance and urgent deliveries.
+- Avoid assigning long-distance deliveries to inexperienced delivery partners during rush hours.
+- Monitor locations with repeated delays and increase local delivery coverage.
+- Use predicted delivery time to show realistic ETA to customers.
+- Create separate staffing plans for rush hour and non-rush hour demand.
