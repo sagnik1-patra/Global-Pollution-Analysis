@@ -1,0 +1,15 @@
+{
+    "Total Records": 200,
+    "High Pollution Records": 67,
+    "Average Energy Recovery GWh": 115.40025840000003,
+    "Average CO2 Emissions": 198.82373525,
+    "Linear Regression R2 Score": 1.0,
+    "Logistic Regression Accuracy": 0.975,
+    "Recommendations": [
+        "High pollution locations show stronger potential for energy recovery from waste and emissions.",
+        "Locations with high CO2 emissions should focus on carbon capture, waste-to-energy systems, and cleaner transportation.",
+        "Industrial waste can be converted into useful energy through biomass, biogas, incineration, and recycling-based recovery systems.",
+        "Energy recovery improves when pollution sources are systematically collected, treated, and converted using clean technologies.",
+        "Policy focus should be given to locations with high Total Pollution Index and low energy recovery output."
+    ]
+}
