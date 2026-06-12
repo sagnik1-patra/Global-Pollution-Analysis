@@ -20,7 +20,7 @@ The project automatically generates reports, visualizations, trained models, pre
 
 ---
 
-![Yearly Energy Recovery Trend](./yearly_energy_recovered.png)
+![Yearly Energy Recovery Trend](co2_vs_energy_recovery.png)
 
 ---
 
