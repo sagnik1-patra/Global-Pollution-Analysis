@@ -1,6 +1,6 @@
 # 🌍 Global Pollution Analysis 
 
-## 🧠 Pollution Reduction & Energy Recovery Prediction using Machine Learning
+## 🧠 Pollution Reduction & Energy Recovery Prediction using Machine Learning 
 
 ---
 
